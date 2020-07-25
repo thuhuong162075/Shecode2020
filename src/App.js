@@ -6,6 +6,8 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Layout1 from './components/Layout1';
 import Layout from './components/Layout';
 import PoliceHomepage from './components/Police/PoliceHomepage';
+import ListTV from './components/Police/ListTV'
+import ListTT from './components/Police/ListTT'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
             <Route exact path="/" component = {Layout1}/>
             <Route exact path="/temporary" component = {Layout}/>
             <Route exact path="/admin" component={PoliceHomepage}/>
+            <Route exact path="/listTV" component={ListTV}/>
+            <Route exact path="/listTT" component={ListTT} />
           </Switch>
         </div>
       </Router>
