@@ -2,27 +2,27 @@
   padding: 0;
   margin: 0; }
 
-.temporary {
+.absence {
   padding: 20px 150px; }
-  .temporary .form {
+  .absence .form {
     border: 1px solid #D30F03;
     box-shadow: 10px 10px 5px #aaaaaa; }
-    .temporary .form h1 {
+    .absence .form h1 {
       padding: 10px;
       text-align: center; }
-    .temporary .form .content-form {
+    .absence .form .content-form {
       margin: 20px 40px; }
-      .temporary .form .content-form .submit {
+      .absence .form .content-form .submit {
         padding: 10px;
         margin-left: 40%;
         color: white;
         background: #d30f03; }
-      .temporary .form .content-form .row {
+      .absence .form .content-form .row {
         margin-bottom: 20px; }
-        .temporary .form .content-form .row .fild {
+        .absence .form .content-form .row .fild {
           margin-right: 30px; }
-          .temporary .form .content-form .row .fild.DCTT input, .temporary .form .content-form .row .fild.cmt input {
+          .absence .form .content-form .row .fild.DCTT input, .absence .form .content-form .row .fild.cmt input {
             width: 320px; }
-          .temporary .form .content-form .row .fild input {
+          .absence .form .content-form .row .fild input {
             margin-left: 10px;
             width: 200px; }
