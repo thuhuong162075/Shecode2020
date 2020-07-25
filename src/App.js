@@ -5,6 +5,7 @@ import Signup from './components/Signup';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Layout1 from './components/Layout1';
 import Layout from './components/Layout';
+import PoliceHomepage from './components/Police/PoliceHomepage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route exact path="/signup" component = {Signup}/>
             <Route exact path="/" component = {Layout1}/>
             <Route exact path="/temporary" component = {Layout}/>
+            <Route exact path="/admin" component={PoliceHomepage}/>
           </Switch>
         </div>
       </Router>

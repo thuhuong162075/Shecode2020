@@ -1,17 +1,14 @@
-import React from 'react';
-import imgLogo from '../assets/image/logo.png';
-import '../assets/css/Header.css'
-import iconSearch from '../assets/image/search.svg'
-import {Link} from 'react-router-dom'
-import {
-    NavLink
-  } from "react-router-dom";
+import React, { Component } from 'react'
+import {Link, NavLink} from 'react-router-dom';
+import imgLogo from '../../assets/image/logo.png';
+import iconSearch from '../../assets/image/search.svg'
+import '../../assets/css/Header.css'
 
-
-function Header() {
-  return (
-    <div className="Header">
-        <div className="header-title">
+export default class PoliceHomepage extends Component {
+    render() {
+        return (
+            <div className="Header">
+                <div className="header-title">
             <div className="title">
                 <img src= {imgLogo} alt="logo" style={{width: 80, height: 80}} />
                 <div className="text">
@@ -68,8 +65,7 @@ function Header() {
                 </ul>
             </nav>   
         </div>
-    </div>
-  );
+            </div>
+        )
+    }
 }
-
-export default Header;
