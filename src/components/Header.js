@@ -26,7 +26,7 @@ function Header() {
             </div>
         </div>
         <div className="header-navbar">
-            <nav className="navbar">
+            <nav className="navbar1">
                 <ul className="navbar-nav1">
                         <li className="nav-item">
                             <NavLink 

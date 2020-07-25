@@ -38,21 +38,21 @@
     .Header .header-title .acount p a {
       color: #525252;
       text-decoration: none; }
-.Header .header-navbar .navbar {
+.Header .header-navbar .navbar1 {
   background-color: #4E4E4E;
   display: flex;
   align-items: center;
   justify-content: center; }
-  .Header .header-navbar .navbar ul.navbar-nav1 {
+  .Header .header-navbar .navbar1 ul.navbar-nav1 {
     list-style-type: none; }
-    .Header .header-navbar .navbar ul.navbar-nav1 .nav-item {
+    .Header .header-navbar .navbar1 ul.navbar-nav1 .nav-item {
       display: inline-block;
       /*height: 100%;*/ }
-      .Header .header-navbar .navbar ul.navbar-nav1 .nav-item .nav-link {
+      .Header .header-navbar .navbar1 ul.navbar-nav1 .nav-item .nav-link {
         padding: 10px 20px;
         display: block;
         text-decoration: none;
         color: #ffffff;
         border-right: 1px solid #ffffff; }
-      .Header .header-navbar .navbar ul.navbar-nav1 .nav-item:hover {
+      .Header .header-navbar .navbar1 ul.navbar-nav1 .nav-item:hover {
         background: #131313; }
