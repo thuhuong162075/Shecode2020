@@ -1,0 +1,27 @@
+.center {
+    position: absolute;
+    top: 23%;
+    margin-left: 32%;
+    margin-right: 32%;
+    /* text-align: center; */
+}
+
+.cardsignup {
+    background-color: rgba(52, 52, 52, 0.8);
+}
+.card-body {
+    color: white;
+}
+
+.react-datetime-picker__wrapper {
+    height: 2.25rem;
+    margin-bottom: 1.05rem;
+    background-color: white;
+}
+.react-datetime-picker__inputGroup__divider {
+    color: black;
+}
+
+.react-datetime-picker__inputGroup {
+    padding-right: 2rem;
+}
