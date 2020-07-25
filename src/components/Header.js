@@ -31,6 +31,7 @@ function Header() {
                 <ul className="navbar-nav1">
                         <li className="nav-item">
                             <NavLink 
+                                exact
                                 activeStyle={{ background: '#131313'}} 
                                 to={"/"}
                                 className="nav-link" 
@@ -40,15 +41,17 @@ function Header() {
                         </li>
                         <li className="nav-item">
                             <NavLink 
+                                exact
                                 activeStyle={{ background: '#131313'}} 
                                 className="nav-link" 
-                                to={"/temporary"}
+                                to={"/absence"}
                             >
                                 Đăng ký tạm vắng
                             </NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink 
+                                exact
                                 activeStyle={{ background: '#131313'}} 
                                 className="nav-link" 
                                 to={"/temporary"}
@@ -58,9 +61,10 @@ function Header() {
                         </li>
                         <li className="nav-item">
                             <NavLink 
+                                exact
                                 activeStyle={{ background: '#131313'}} 
                                 className="nav-link" 
-                                to={"/"}
+                                to={"/contact"}
                             >
                                 Liên hệ
                             </NavLink>

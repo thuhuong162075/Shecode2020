@@ -1,7 +1,7 @@
 import React from 'react';
-import '../assets/css/Temporary.css'
+import '../assets/css/Absence.css'
 
-class Temporary extends React.Component {
+class Absence extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -11,9 +11,9 @@ class Temporary extends React.Component {
     }
     render() {
         return (
-            <div className="temporary">
+            <div className="absence">
                 <form className="form">
-                    <h1>Đăng ký tạm trú </h1>
+                    <h1>Đăng ký tạm vắng </h1>
                     <div className="content-form">
                         <div className="row">
                             <div className="fild usename">
@@ -57,7 +57,7 @@ class Temporary extends React.Component {
                         <div className="row">
                             <div className=" fild BKNK">
                                 <label>
-                                    Ảnh chụp chứng minh thư
+                                    Bản khai nhân khẩu
                                 </label>
                                 <input type="file" name="BKNK"/>
                             </div>
@@ -65,12 +65,19 @@ class Temporary extends React.Component {
                         <div className="row">
                             <div className=" fild BKNK">
                                 <label>
-                                    Ảnh chụp các giấy tờ khác cần xác thực
+                                    Phiếu thay đổi hộ khẩu, nhân khẩu
                                 </label>
                                 <input type="file" name="BKNK"/>
                             </div>
                         </div>
-                      
+                        <div className="row">
+                            <div className=" fild BKNK">
+                                <label>
+                                    Giấy tờ chứng minh chỗ ở hợp pháp
+                                </label>
+                                <input type="file" name="BKNK"/>
+                            </div>
+                        </div>
                         <input type="submit" value="Submit" className="submit"/>
                     </div>
                     
@@ -80,5 +87,5 @@ class Temporary extends React.Component {
         );
     }
     }
-export default Temporary;
+export default Absence;
 
