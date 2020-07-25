@@ -43,7 +43,7 @@
             }
         }
         .acount {
-            margin-top: -40px;
+            
             p {
                 a {
                     color: #525252;
@@ -59,11 +59,10 @@
             align-items: center;
             justify-content: center;
             ul.navbar-nav1 {
+                margin: 0;
                 list-style-type: none;
                 .nav-item {
                     display: inline-block;
-                    /*height: 100%;*/
-                
                     .nav-link {
                         padding: 10px 20px;
                         display: block;
