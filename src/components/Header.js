@@ -27,21 +27,42 @@ function Header() {
         </div>
         <div className="header-navbar">
             <nav className="navbar">
-                <ul className="navbar-nav">
+                <ul className="navbar-nav1">
                         <li className="nav-item">
-                            {/* <NavLink activeStyle={{
-                                background: '#131313'
-                            }} className="nav-link" >Trang chủ</NavLink> */}
-                            <a href="#" className="nav-link">Trang chủ</a>
+                            <NavLink 
+                                activeStyle={{ background: '#131313'}} 
+                                to={"/"}
+                                className="nav-link" 
+                            >
+                                Trang chủ
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link">Đăng ký tạm vắng</a>
+                            <NavLink 
+                                activeStyle={{ background: '#131313'}} 
+                                className="nav-link" 
+                                to={"/temporary"}
+                            >
+                                Đăng ký tạm vắng
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link">Đăng ký tạm trú</a>
+                            <NavLink 
+                                activeStyle={{ background: '#131313'}} 
+                                className="nav-link" 
+                                to={"/temporary"}
+                            >
+                                Đăng ký tạm trú
+                            </NavLink>
                         </li>
                         <li className="nav-item">
-                            <a href="#" className="nav-link">Liên hệ</a>
+                            <NavLink 
+                                activeStyle={{ background: '#131313'}} 
+                                className="nav-link" 
+                                to={"/"}
+                            >
+                                Liên hệ
+                            </NavLink>
                         </li>
                 </ul>
             </nav>   

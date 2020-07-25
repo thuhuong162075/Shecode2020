@@ -43,18 +43,16 @@
   display: flex;
   align-items: center;
   justify-content: center; }
-  .Header .header-navbar .navbar navbar-brand {
-    padding: 0 5px; }
-  .Header .header-navbar .navbar .navbar-nav {
+  .Header .header-navbar .navbar ul.navbar-nav1 {
     list-style-type: none; }
-    .Header .header-navbar .navbar .navbar-nav .nav-item {
+    .Header .header-navbar .navbar ul.navbar-nav1 .nav-item {
       display: inline-block;
       /*height: 100%;*/ }
-      .Header .header-navbar .navbar .navbar-nav .nav-item .nav-link {
+      .Header .header-navbar .navbar ul.navbar-nav1 .nav-item .nav-link {
         padding: 10px 20px;
         display: block;
         text-decoration: none;
         color: #ffffff;
         border-right: 1px solid #ffffff; }
-      .Header .header-navbar .navbar .navbar-nav .nav-item:hover {
+      .Header .header-navbar .navbar ul.navbar-nav1 .nav-item:hover {
         background: #131313; }

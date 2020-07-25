@@ -3,19 +3,20 @@ import './App.css';
 import Signin from './components/SignIn';
 import Signup from './components/Signup';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Layout1 from './components/Layout1';
 import Layout from './components/Layout';
-import Temporary from './components/Temporary';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <div>
-          <Temporary />
-          {/* <Switch>
+          <Switch>
             <Route exact path="/signin" component = {Signin}/>
             <Route exact path="/signup" component = {Signup}/>
-          </Switch> */}
+            <Route exact path="/" component = {Layout1}/>
+            <Route exact path="/temporary" component = {Layout}/>
+          </Switch>
         </div>
       </Router>
     </div>
