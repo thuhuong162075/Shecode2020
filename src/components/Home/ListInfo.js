@@ -8,7 +8,7 @@ function ListInfo() {
         return (
             <div className="ListInfo">
                 <div className="title">
-                        <p className="cat-title">Thông tin chính phủ</p>
+                        <p className="cat-title">Các thông tin liên quan</p>
                 </div>
                 <div className="content">
                         <ul className="group-list">
