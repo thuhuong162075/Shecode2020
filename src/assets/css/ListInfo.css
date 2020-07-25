@@ -16,13 +16,13 @@
     .ListInfo .title .viewall {
       font-size: 14px; }
   .ListInfo .content .group-list {
-    height: 400px;
     display: flex;
     flex-wrap: wrap;
-    list-style-type: none; }
+    list-style-type: none;
+    margin-bottom: 10px; }
     .ListInfo .content .group-list .list-item {
       width: calc(100%/3 - 20px);
-      height: 430px;
+      height: 400px;
       margin-left: 10px;
       margin-right: 10px;
       margin-top: 20px;
