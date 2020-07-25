@@ -59,7 +59,7 @@ export default class Header extends Component {
                             <NavLink 
                                 activeStyle={{ background: '#131313'}} 
                                 className="nav-link" 
-                                to={"/"}
+                                to={"#"}
                             >
                                 Quản lý dân cư
                             </NavLink>
