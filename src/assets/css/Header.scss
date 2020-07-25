@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.Header {
+    .header-title {
+        color: 14px;
+        padding: 0 150px;
+        height: 100px;
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        border-bottom: 7px solid #D30F03;
+        .title {
+            display: flex;
+            align-items: center;
+            .text {
+                margin-left: 10px;
+                text-align: center;
+                h2 {
+                    color: #D30F03;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                }
+            }
+            
+        }
+        .search-box {
+            position: relative;
+            input {
+                padding: 10px 8px;
+                width: 350px;
+                border: 1px solid #D30F03;  
+                border-radius: 10px;
+                &:focus {
+                    outline:none!important;
+                }
+            }
+            img {
+                position: absolute;
+                top: 6px;
+                right: 8px;
+            }
+        }
+        .acount {
+            margin-top: -40px;
+            p {
+                a {
+                    color: #525252;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .header-navbar {
+        .navbar {
+            background-color: #4E4E4E;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            navbar-brand {
+                padding: 0 5px;
+            }
+            .navbar-nav {
+                list-style-type: none;
+                .nav-item {
+                    display: inline-block;
+                    /*height: 100%;*/
+                
+                    .nav-link {
+                        padding: 10px 20px;
+                        display: block;
+                        text-decoration: none;
+                        color: #ffffff;
+                        border-right: 1px solid #ffffff;
+                    }
+                    &:hover {
+                        background: #131313;
+                    }
+                }
+            }
+        }
+    }
+}
