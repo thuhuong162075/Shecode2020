@@ -4,7 +4,7 @@ import cccd from '../../assets/image/cccd.png';
 import hk from '../../assets/image/hk.jpg'
 import '../../assets/css/Temporary.css'
 import tick from '../../assets/image/tick.png'
-import { Spinner, Table, Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
+import {  Table, Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
 
 const list = [{
     "id": "1",

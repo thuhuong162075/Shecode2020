@@ -18,7 +18,7 @@ handleChange = date => {
   };
 
 onSignin = ()=>{
-    this.props.history.push('/signup')
+    this.props.history.push('/')
 }
 render(){
   return (

@@ -1,14 +1,19 @@
 import React from 'react';
 import '../assets/css/Absence.css'
-
+import {   Button, Modal, ModalBody, ModalHeader, ModalFooter } from 'reactstrap';
+import tick from '../assets/image/tick.png'
 class Absence extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
         username: '',
         age: null,
+        modal: false
         };
     }
+    handleSubmit = ()=>{
+        this.setState({modal: !this.state.modal})
+      }
     render() {
         return (
             <div className="absence">
@@ -78,10 +83,24 @@ class Absence extends React.Component {
                                 <input type="file" name="BKNK"/>
                             </div>
                         </div>
-                        <input type="submit" value="Submit" className="submit"/>
+                        <Button onClick={this.handleSubmit} value="Submit" className="submit">Nộp đơn</Button>
                     </div>
                     
                 </form>
+                <Modal isOpen={this.state.modal} toggle={this.handleSubmit} >
+        <ModalHeader >Xác nhận nộp đơn</ModalHeader>
+        <ModalBody style={{textAlign: "center"}}>
+            <img src = {tick} alt="" style={{width: "20%", color: "green", margin: "1rem"}}/>
+            {/* <Spinner size="sm" color="primary" /> */}
+            <br/>
+            <text>Nộp đơn thanh công</text>
+        </ModalBody>
+        <ModalFooter>
+        
+        <Button color="secondary" onClick={this.handleSubmit} >Cancel</Button>
+          <Button color="success" onClick={this.handleSubmit}>OK</Button>{' '}
+        </ModalFooter>
+      </Modal>
             </div>
         
         );
