@@ -21,8 +21,16 @@
         margin-bottom: 20px; }
         .temporary .form .content-form .row .fild {
           margin-right: 30px; }
-          .temporary .form .content-form .row .fild.DCTT input, .temporary .form .content-form .row .fild.cmt input {
-            width: 320px; }
+          .temporary .form .content-form .row .fild.DCTT {
+            display: flex; }
+            .temporary .form .content-form .row .fild.DCTT .DetailDCTT {
+              display: flex;
+              margin-left: 10px; }
+              .temporary .form .content-form .row .fild.DCTT .DetailDCTT .Detail label {
+                font-size: 14px;
+                margin-right: 7px; }
+              .temporary .form .content-form .row .fild.DCTT .DetailDCTT .Detail select {
+                margin-right: 7px; }
           .temporary .form .content-form .row .fild input {
             margin-left: 10px;
             width: 200px; }

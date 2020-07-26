@@ -24,11 +24,22 @@
                 margin-bottom: 20px;
                 .fild {
                     margin-right: 30px;
-                    &.DCTT, &.cmt {
-                        input {
-                            width: 320px;
+                   &.DCTT {
+                        display: flex;
+                        .DetailDCTT {
+                            display: flex;
+                            margin-left: 10px;
+                            .Detail {
+                                label {
+                                    font-size: 14px;
+                                    margin-right: 7px;
+                                }
+                                select {
+                                    margin-right: 7px;
+                                }
+                            }
                         }
-                    }
+                   }
                     .label {
 
                     }
